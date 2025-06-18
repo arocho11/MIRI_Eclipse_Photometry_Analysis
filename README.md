@@ -13,4 +13,4 @@
 
 - The joint fit notebook under ModelComparison can be used to constrain a single eclipse depth and time of mid-eclipse with the three eclipses. Each eclipse has its own coefficient for the exponential model, thes best fit model selected by model comparison. A first-degree centroid model should be added as second-order polynomial centroid model has too many parameters (multipled by number of eclipses) for the MCMC to converge.
 
-- All of the notebook can be used by simply importing the data and selecting the model to test.
+- All of the notebook can be used by simply importing the data and selecting the model to test. Models are tested one at a time and the model_compare notebooks can be used to make a comparative plots of all detrended light curves and allen plots of the models.
